@@ -1,8 +1,45 @@
 body {
-  background: blue;
+  background: pink;
 }
 
-h1 {
+section {
+  border-bottom: #efefef 2px solid;
+  min-height: 98vh;
+}
 
-  font-size: 3em;
+
+figure{
+margin-bottom: 1em;
+
+}
+.project-feature-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.project-feature {
+
+  border: 2px solid #000;
+  margin: 1em;
+  padding: 1em;
+  flex-basis: 320px;
+}
+
+.photo-feature-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photo-feature {
+
+  border: 2px solid #000;
+  margin: 1em;
+  padding: 1em;
+  flex-basis: 320px;
+
+  
 }
