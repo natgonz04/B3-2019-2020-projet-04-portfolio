@@ -1,16 +1,26 @@
+
+
+
 body {
-  background: pink;
+  background: #FFB6C1;
+  color: #FF6347
+
 }
 
 section {
-  border-bottom: #efefef 2px solid;
+  border-bottom: #F0F8FF 2px solid;
   min-height: 98vh;
+  margin-top: 0.55em;
 }
 
 
 figure{
-margin-bottom: 1em;
+    margin-top: 0.55em;
+margin-bottom: 0.65em;
 
+}
+figure img {
+  width: 100%;
 }
 .project-feature-container {
 display: flex;
@@ -21,10 +31,10 @@ justify-content: space-around;
 
 .project-feature {
 
-  border: 2px solid #000;
+  border: 2px solid #F0F8FF;
   margin: 1em;
   padding: 1em;
-  flex-basis: 320px;
+  flex-basis: 960px;
 }
 
 .photo-feature-container {
@@ -36,10 +46,10 @@ justify-content: space-around;
 
 .photo-feature {
 
-  border: 2px solid #000;
+  border: 2px solid #F0F8FF;
   margin: 1em;
   padding: 1em;
   flex-basis: 320px;
 
-  
+
 }
