@@ -4,15 +4,28 @@ font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-font-size: 3em;
+  font-family: font-family: 'Montserrat', sans-serif;
+font-size: 6.5em;
 margin-bottom: 1em;
-
+margin-top: 0.65em;
+margin-right: 0.65em;
+margin-left: 0.65em;
+color: ##FF6347;
 }
 h2 {
 
   font-size: 2em;
   margin-bottom: 0.65em
 }
+
+h4 {
+  font-size: 4em;
+  margin-bottom: 1em;
+  margin-top: 0.65em;
+  margin-right: 0.65em;
+  margin-left: 0.65em;
+
+  }
 
 figcaption {
 
