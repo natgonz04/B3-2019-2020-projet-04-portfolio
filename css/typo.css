@@ -1,15 +1,16 @@
 body {
 
-font-family: 'Roboto', sans-serif;
+font-family: 'Cyrene';
 }
 
 h1 {
-  font-family: font-family: 'Montserrat', sans-serif;
-font-size: 6.5em;
-margin-bottom: 1em;
-margin-top: 0.65em;
-margin-right: 0.65em;
-margin-left: 0.65em;
+  font-family: font-family: lhdc;
+font-size: 53px;
+font-weight: 400;
+margin-bottom: 80px;
+margin-top: 80px;
+text-transform: none;
+text-align: center;
 color: ##FF6347;
 }
 h2 {
@@ -46,4 +47,24 @@ figcaption {
 
   font-size: 0.75em;
   font-style: italic;
+}
+
+.masthead:after {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+
+.masthead-arrow-container {
+    /* bottom: 45px; */
+    position: absolute;
+    left: calc(50% - 30px);
+}
+    .masthead-arrow-container {
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
 }
