@@ -9,7 +9,7 @@ body{
 }
 
 section {
-  border-bottom: #F0F8FF 2px solid;
+
   min-height: 98vh;
   margin-top: 0.55em;
 }
@@ -32,7 +32,7 @@ justify-content: space-around;
 
 .project-feature {
 
-  border: 2px solid #F0F8FF;
+
   margin: 1em;
   padding: 1em;
   flex-basis: 960px;
@@ -47,7 +47,7 @@ justify-content: space-around;
 
 .photo-feature {
 
-  border: 2px solid #F0F8FF;
+
   margin: 1em;
   padding: 1em;
   flex-basis: 320px;
@@ -57,7 +57,7 @@ justify-content: space-around;
 
 .photo-type {
   display: inline-block;
-  border : 1px solid #000;
+  
   border-radius: 2px;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
